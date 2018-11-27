@@ -30,11 +30,9 @@ Description: =====
         
             path('examples/', include('outbox_base_layout.urls')),
         
-        3. Run `python manage.py migrate` to create the base layout models.
+        3. Start the development server and visit http://127.0.0.1:8000/examples/.
         
-        4. Start the development server and visit http://127.0.0.1:8000/examples/.
-        
-        5. Visit http://127.0.0.1:8000/examples/ to view the base.
+        4. Visit http://127.0.0.1:8000/examples/ to view the base.
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: Django
